@@ -1,18 +1,18 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    
+    <TweetContainer/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TweetContainer from "./components/TweetContainer.vue"
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+      TweetContainer
+}
 }
 </script>
 
@@ -25,4 +25,10 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+html{
+  background-color: blanchedalmond;
+  margin: 0;
+  padding: 0;
+}
+
 </style>
