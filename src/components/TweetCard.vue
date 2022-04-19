@@ -1,4 +1,5 @@
 <template>
+<!-- HTML content structure for individual Tweets -->
     <div >
         <p>{{tweetContent}}</p>
         <h3>{{user}}</h3>
@@ -26,6 +27,8 @@
 </script>
 
 <style lang="scss" scoped>
+
+// Div style for standard list style tweet
 div{
     position: relative;
     left: 10vw;
@@ -37,6 +40,7 @@ div{
         font-size: 1.5em;
     }
 }
+// Div style for grid style tweet
 .grid{
     display: grid;
     position: relative;

@@ -28,6 +28,8 @@ import TweetCard from "./TweetCard.vue"
         data () {
             return {
                 button_active_state: false,
+
+                // Tweets to be used by TweetCard
                 posts: [
                     {
                         id : 1,
